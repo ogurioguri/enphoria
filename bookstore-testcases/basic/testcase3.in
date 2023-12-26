@@ -53,4 +53,5 @@ logout
 su user5 user5_password
 logout
 Congratulations!
+log
 exit

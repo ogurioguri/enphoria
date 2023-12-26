@@ -11,6 +11,7 @@
 #include <cctype>
 bool cut(std::string &kind, std::string &value, const std::string &input) {
   bool flag = false;
+	
   std::string k = input.substr(1, 4);
   if (k == "ISBN") {
 	flag = true;
